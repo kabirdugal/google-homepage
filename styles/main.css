@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 body {
     font-size: 14px;
     font-family: arial, sans-serif;
@@ -20,7 +22,6 @@ input {
     outline: none;
     color: #222;
 }
-
 
 li {
     display: inline;
@@ -109,11 +110,17 @@ footer {
     width: 75px;
     height: 30px;
     color: azure;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10pt;
-    font-weight: 600;
+    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 13px;
     border-radius: 4px;
     border: none;
+}
+
+.signin-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #4285f4;
+    border: 1px solid #c6c6c6;
 }
 
 .nav-apps {
@@ -123,13 +130,6 @@ footer {
 .nav-apps:hover {
     text-decoration: none;
     color: #222;
-}
-
-.signin-btn:hover {
-    cursor: pointer;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    background-color: #4285f4;
-    border: 1px solid #c6c6c6;
 }
 
 /* MAIN */
